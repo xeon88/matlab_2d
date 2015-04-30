@@ -1,8 +1,7 @@
 function [ outpol ] = apply_transformation( inpol , nvertex , trmatrix )
-%APPLY_ROTATION Summary of this function goes here
-%   apply transformation matrix to vertices of a polygon and return 
-%   the vertices matrix corrisponding to transformed polygon
-%   Detailed explanation goes here
+%   applica la trasformazione trmatrix alla matrice di vertici definita da inpol
+%   di dimensione nvertex e restituisce matrice di punti in output outpol
+
 outpol=[]
 for i=1:nvertex
     vertex=inpol( : , i)

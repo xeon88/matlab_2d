@@ -1,3 +1,7 @@
+% script di test delle librerie di test 2d transformation
+%
+
+
 nvertex=4
 trmatrix=[1 0 0 ; 0 1 0 ; 0 0 1 ;]
 polygon=[]
